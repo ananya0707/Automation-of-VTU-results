@@ -19,14 +19,14 @@ A Python automation project that extracts and analyzes student results from the 
 - **Python 3.10+**
 - `requests`, `beautifulsoup4` – Web scraping
 - `Pillow`, `OpenCV` – Image processing
-- `pytesseract` – OCR for CAPTCHA solving
-- `matplotlib`, `numpy` – Data handling & plots (optional)
-- `Flask` – Web interface (if used)
+- `easyocr` – OCR for CAPTCHA solving
+- `pandas` – Data handling & plots 
+
 
 ---
 
 ## 📂 Folder Structure
-
+<pre>
 vtu_result_automation/
 │
 ├── app.py # Main script
@@ -36,9 +36,9 @@ vtu_result_automation/
 │ ├── cap.png
 │ ├── output_image.png
 │ └── snapshot.png
-└── pycache/ # Python cache (optional to track)
+└── pycache/ # Python cache
 
-
+</pre>
 ---
 
 ## 📸 Sample Output
